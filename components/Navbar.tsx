@@ -5,7 +5,7 @@ import Logo2 from '../public/Logo2.png'
 
 const Navbar = () => {
   return (
-    <nav className="fixed flex items-center justify-between w-full h-20 py-12 shadow-xl">
+    <nav className="relative flex items-center justify-between w-full h-20 py-12 shadow-xl">
         
         <div className="flex items-center justify-between w-full h-full px-4 2xl:px-16">
        <Link href='/'>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </Link>  
         <div>
             <ul className="hidden sm:flex">
-                <Link href="/about">
+                <Link href="/About">
                 <li className="ml-10 text-xl uppercase hover:border-b">About Us</li>
                 </Link>
                 <Link href="/contact">

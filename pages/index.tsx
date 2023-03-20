@@ -20,13 +20,18 @@ const Home: NextPage = () => {
         <title>Home | ReSeT Co</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      
       <main className="grid grid-cols-[3fr_1fr] py-24">
+        <div>
+          <h1 className="font-sans font-bold text-8xl">ReSeT</h1>
+          
         <div className="">
-          <h1 className="text-8xl font-bold w-[40rem] leading-[90%] tracking-[-2px]">
-            <AnimatedWords title="ReSet Wellness for a better everyday" />
+          <h1 className="text-8xl w-[40rem] leading-[90%] tracking-[-2px]">
+            <AnimatedWords title="Refugee and Settlement Services" />
           </h1>
         </div>
+        </div>
+   
         <motion.div
           className="text-base leading-[150%] self-end"
           variants={riseWithFade}
@@ -39,22 +44,22 @@ const Home: NextPage = () => {
         <source src="/assets/helping-hand.mp4" type="video/mp4" />
       </motion.video>
       <div className="middle-section">
-        <h3 className="text-4xl font-bold text-center py-10">
+        <h3 className="py-10 text-4xl font-bold text-center">
           WELCOME REFUGEES TO OUR CITY
         </h3>
-        <h4 className="text-xl font-light text-center pb-20">
+        <h4 className="pb-20 text-xl font-light text-center">
           Toronto receives over 40% of Canada's refugee claimants arriving
           annually but a lack of refugee-specific shelters leaves many
           vulnerable to homelessness and exploitation.
         </h4>
-        <div className="flex flex-wrap py-10 justify-center items-center">
-          <div className="ml-10 w-60 pb-20 mx-5 flex flex-col items-center">
+        <div className="flex flex-wrap items-center justify-center py-10">
+          <div className="flex flex-col items-center pb-20 mx-5 ml-10 w-60">
             <img
               src="/assets/1.png"
               alt="Image 1"
               className="w-56 h-56 rounded-lg shadow-lg"
             />
-            <h3 className="text-3xl font-bold mb-5 text-center pt-5">
+            <h3 className="pt-5 mb-5 text-3xl font-bold text-center">
               ABOUT US
             </h3>
             <p className="text-base leading-7 text-center">
@@ -64,13 +69,13 @@ const Home: NextPage = () => {
               Transitions.
             </p>
           </div>
-          <div className="ml-10 w-60 pb-20   mx-5 flex flex-col items-center">
+          <div className="flex flex-col items-center pb-20 mx-5 ml-10 w-60">
             <img
               src="/assets/2.png"
               alt="Image 1"
-              className="w-56 h-56  rounded-lg shadow-lg"
+              className="w-56 h-56 rounded-lg shadow-lg"
             />
-            <h3 className="text-3xl font-bold mb-5 text-center pt-5">
+            <h3 className="pt-5 mb-5 text-3xl font-bold text-center">
               OUR WORK
             </h3>
             <p className="text-base leading-7 text-center">
@@ -80,13 +85,13 @@ const Home: NextPage = () => {
               Transitions.
             </p>
           </div>
-          <div className="ml-10 w-60 pb-20 mx-5 flex flex-col items-center">
+          <div className="flex flex-col items-center pb-20 mx-5 ml-10 w-60">
             <img
               src="/assets/3.png"
               alt="Image 1"
               className="w-56 h-56 rounded-lg shadow-lg"
             />
-            <h3 className="text-3xl font-bold mb-5 text-center pt-5">
+            <h3 className="pt-5 mb-5 text-3xl font-bold text-center">
               GET INVOLVED
             </h3>
             <p className="text-base leading-7 text-center">
